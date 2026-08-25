@@ -26,6 +26,15 @@ function Attendance() {
   return (
     <div className="bg-light min-vh-100 py-4">
       <div className="container">
+        <div className="d-flex justify-content-between align-items-center mb-4">
+          <h2 className="fw-bold mb-0">История отчётов</h2>
+
+          <div className="d-flex gap-2">
+            <a href="/history" className="btn btn-secondary">
+              Назад
+            </a>
+          </div>
+        </div>
         {/* Название */}
 
         <div className="card shadow-sm mb-3">
